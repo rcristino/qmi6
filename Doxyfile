@@ -1,0 +1,28 @@
+# Doxyfile 1.8.20
+
+# The INPUT tag is used to specify the files or directories to be documented.
+INPUT = include/Queue.h
+
+# The OUTPUT_DIRECTORY tag is used to specify the directory where the documentation will be generated.
+OUTPUT_DIRECTORY = docs
+
+# The RECURSIVE tag specifies whether to search subdirectories of the directories specified in INPUT.
+RECURSIVE = NO
+
+# The GENERATE_HTML tag specifies whether to generate HTML documentation.
+GENERATE_HTML = YES
+
+# The GENERATE_LATEX tag specifies whether to generate LaTeX documentation.
+GENERATE_LATEX = NO
+
+# The PROJECT_NAME tag specifies the name of the project.
+PROJECT_NAME = "Queue Class Documentation"
+
+# Skip dot to generate dependency graphs
+HAVE_DOT = NO
+
+# Ensure this is set to YES if you want included files to be visible.
+SHOW_INCLUDE_FILES = YES
+
+# Set to NO to ensure undocumented members are shown if they are relevant.
+HIDE_UNDOC_MEMBERS = NO
